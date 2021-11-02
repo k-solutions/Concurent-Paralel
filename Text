@@ -1,0 +1,11 @@
+Outputable pgmError :: String -> a
+Outputable panic :: String -> a
+Outputable sorry :: String -> a
+Panic pgmError :: String -> a
+Panic panic :: String -> a
+Panic sorry :: String -> a
+Panic cmdLineError :: String -> a
+PlainPanic panic :: String -> a
+PlainPanic sorry :: String -> a
+PlainPanic pgmError :: String -> a
+-- plus more results not shown, pass --count=20 to see more
