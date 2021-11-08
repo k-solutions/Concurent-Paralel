@@ -1,7 +1,6 @@
 module Main where
 
-import           System.Environment
+-- import           System.Environment
 
-import           PhoneBook
-
-main = getArgs >>= app >> getLine
+import           WithSock
+main = app

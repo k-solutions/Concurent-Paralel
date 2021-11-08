@@ -10,6 +10,36 @@
   (major1) == 0 && (major2) <  1 || \
   (major1) == 0 && (major2) == 1 && (minor) <= 0)
 #endif /* MIN_VERSION_Examp */
+/* package aeson-1.5.6.0 */
+#ifndef VERSION_aeson
+#define VERSION_aeson "1.5.6.0"
+#endif /* VERSION_aeson */
+#ifndef MIN_VERSION_aeson
+#define MIN_VERSION_aeson(major1,major2,minor) (\
+  (major1) <  1 || \
+  (major1) == 1 && (major2) <  5 || \
+  (major1) == 1 && (major2) == 5 && (minor) <= 6)
+#endif /* MIN_VERSION_aeson */
+/* package aeson-lens-0.5.0.0 */
+#ifndef VERSION_aeson_lens
+#define VERSION_aeson_lens "0.5.0.0"
+#endif /* VERSION_aeson_lens */
+#ifndef MIN_VERSION_aeson_lens
+#define MIN_VERSION_aeson_lens(major1,major2,minor) (\
+  (major1) <  0 || \
+  (major1) == 0 && (major2) <  5 || \
+  (major1) == 0 && (major2) == 5 && (minor) <= 0)
+#endif /* MIN_VERSION_aeson_lens */
+/* package async-2.2.3 */
+#ifndef VERSION_async
+#define VERSION_async "2.2.3"
+#endif /* VERSION_async */
+#ifndef MIN_VERSION_async
+#define MIN_VERSION_async(major1,major2,minor) (\
+  (major1) <  2 || \
+  (major1) == 2 && (major2) <  2 || \
+  (major1) == 2 && (major2) == 2 && (minor) <= 3)
+#endif /* MIN_VERSION_async */
 /* package base-4.14.1.0 */
 #ifndef VERSION_base
 #define VERSION_base "4.14.1.0"
@@ -70,15 +100,15 @@
   (major1) == 2 && (major2) <  2 || \
   (major1) == 2 && (major2) == 2 && (minor) <= 2)
 #endif /* MIN_VERSION_mtl */
-/* package network-3.1.2.5 */
+/* package network-3.1.1.1 */
 #ifndef VERSION_network
-#define VERSION_network "3.1.2.5"
+#define VERSION_network "3.1.1.1"
 #endif /* VERSION_network */
 #ifndef MIN_VERSION_network
 #define MIN_VERSION_network(major1,major2,minor) (\
   (major1) <  3 || \
   (major1) == 3 && (major2) <  1 || \
-  (major1) == 3 && (major2) == 1 && (minor) <= 2)
+  (major1) == 3 && (major2) == 1 && (minor) <= 1)
 #endif /* MIN_VERSION_network */
 /* package network-run-0.2.4 */
 #ifndef VERSION_network_run
@@ -140,6 +170,26 @@
   (major1) == 1 && (major2) <  2 || \
   (major1) == 1 && (major2) == 2 && (minor) <= 4)
 #endif /* MIN_VERSION_text */
+/* package time-1.9.3 */
+#ifndef VERSION_time
+#define VERSION_time "1.9.3"
+#endif /* VERSION_time */
+#ifndef MIN_VERSION_time
+#define MIN_VERSION_time(major1,major2,minor) (\
+  (major1) <  1 || \
+  (major1) == 1 && (major2) <  9 || \
+  (major1) == 1 && (major2) == 9 && (minor) <= 3)
+#endif /* MIN_VERSION_time */
+/* package wreq-0.5.3.3 */
+#ifndef VERSION_wreq
+#define VERSION_wreq "0.5.3.3"
+#endif /* VERSION_wreq */
+#ifndef MIN_VERSION_wreq
+#define MIN_VERSION_wreq(major1,major2,minor) (\
+  (major1) <  0 || \
+  (major1) == 0 && (major2) <  5 || \
+  (major1) == 0 && (major2) == 5 && (minor) <= 3)
+#endif /* MIN_VERSION_wreq */
 
 /* tool cpphs-1.20.9 */
 #ifndef TOOL_VERSION_cpphs

@@ -36,6 +36,8 @@ dependencies:
 - wreq
 - aeson
 - aeson-lens 
+- time
+- async
 
 ghc-options:                  
 - -threaded
